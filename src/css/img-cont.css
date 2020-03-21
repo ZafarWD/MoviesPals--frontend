@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #f2f6f5;
+}
+
+.image-content {
+    margin: 2.5% 6% 6% 6%;
+    border: 0.8px solid #63707e;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 3% 20% 74% 3%;
+    grid-template-areas: ". image content .";
+    align-items: center;
+    font-family: "Ubuntu", sans-serif;
+    color: #434b53;
+    border-radius: 5px 70px;
+    background-color: #c8dad3;
+}
+
+.image-content:hover {
+    box-shadow: 0px 0px 30px 3px #000;
+}
+
+.image {
+    background-size: cover;
+    height: 85%;
+    width: 90%;
+    border: 1px solid #63707e;
+    border-radius: 2% 20%;
+    grid-area: image;
+}
+
+.content {
+    margin-right: 5px;
+    padding: 5px;
+    font-size: large;
+    line-height: 25px;
+    grid-area: content;
+}
+
+h3 {
+    margin: 5px 0px;
+    letter-spacing: 1px;
+}
+
+span {
+    text-decoration: underline;
+}

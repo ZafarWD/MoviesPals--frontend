@@ -1,0 +1,32 @@
+.visitor-heading {
+    font-family: "Ubuntu", sans-serif;
+    color: #63707e;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+.visitors-container {
+    margin: 10px auto;
+    text-align: center;
+    text-decoration: none;
+}
+
+.visitor-field-name {
+    display: inline-block;
+    font-size: 50px;
+    text-align: right;
+    font-family: "Ubuntu", sans-serif;
+    color: #63707e;
+    text-decoration: none;
+}
+
+.visitor-field-review {
+    text-decoration: none;
+    margin: 10px;
+    font-size: larger;
+    font-family: "Ubuntu", sans-serif;
+    color: #63707e;
+}

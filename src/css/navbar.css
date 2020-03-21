@@ -1,0 +1,120 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: #f2f6f5;
+    margin-bottom: 2.5%;
+}
+
+.link,
+.nav-brand {
+    display: inline-block;
+    border: 2px solid #f2f6f5;
+    margin: 0 10px;
+    padding: 10px;
+    text-decoration: none;
+    color: #63707e;
+    font-weight: normal;
+    letter-spacing: 1px;
+}
+
+.nav-brand {
+    font-weight: bolder;
+    letter-spacing: 1.2px;
+    font-size: 40px;
+}
+
+.nav-content {
+    align-self: center;
+}
+
+.link:hover {
+    border: 2px solid #63707e;
+    background-color: #63707e;
+    color: #f2f6f5;
+    border-radius: 5px 20px;
+}
+
+
+/* login form css */
+
+h2 {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    color: #63707e;
+    font-size: 50px;
+    /* text-decoration: underline; */
+    margin: 10px;
+}
+
+.login-space {
+    height: 150px;
+}
+
+.visitors-space {
+    height: 100px;
+}
+
+input {
+    margin: 20px auto;
+    display: block;
+    padding: 10px;
+    width: 30%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    border: solid 1px #63707e;
+    color: #63707e;
+}
+
+input::placeholder {
+    font-family: "Montserrat", sans-serif;
+    color: #63707e;
+    font-size: larger;
+    font-weight: normal;
+}
+
+.login-buttons {
+    margin: 10px auto;
+    text-align: center;
+}
+
+button {
+    width: 100px;
+    margin: 2px 8px;
+    text-align: center;
+    padding: 7px;
+    color: #63707e;
+    font-size: larger;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    border: solid 1px #63707e;
+}
+
+button:hover {
+    color: white;
+    background-color: #63707e;
+}
+
+.login-error {
+    text-align: center;
+    color: #63707e;
+    font-family: "Montserrat", sans-serif;
+    margin: 3px;
+    padding-bottom: 3px;
+}
+
+
+/* all forms */
+
+.movieform-heading {
+    margin-top: 5%;
+    font-size: 30px;
+}

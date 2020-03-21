@@ -1,3 +1,6 @@
+## Moviepals- frontend
+The frntend part of movie information website
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
